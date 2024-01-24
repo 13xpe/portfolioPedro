@@ -5,7 +5,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 
-function App() {
+export default function App() {
   return (
     <div>
       <NavBar />
@@ -17,5 +17,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
